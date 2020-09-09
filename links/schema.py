@@ -40,6 +40,6 @@ class CreateLink(graphene.Mutation):
         )
 
 
-# 4
+# 4.
 class Mutation(graphene.ObjectType):
     create_link = CreateLink.Field()
